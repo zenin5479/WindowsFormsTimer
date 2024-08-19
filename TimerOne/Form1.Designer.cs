@@ -28,10 +28,12 @@
       /// </summary>
       private void InitializeComponent()
       {
+         components = new System.ComponentModel.Container();
          LabelSeconds = new System.Windows.Forms.Label();
          ButtonStart = new System.Windows.Forms.Button();
          TextBoxSeconds = new System.Windows.Forms.TextBox();
          LabelCounter = new System.Windows.Forms.Label();
+         TimerOne = new System.Windows.Forms.Timer(components);
          SuspendLayout();
          // 
          // LabelSeconds
@@ -53,6 +55,7 @@
          ButtonStart.TabIndex = 14;
          ButtonStart.Text = "Старт";
          ButtonStart.UseVisualStyleBackColor = true;
+         ButtonStart.Click += ButtonStart_Click;
          // 
          // TextBoxSeconds
          // 
@@ -98,5 +101,6 @@
       private System.Windows.Forms.Button ButtonStart;
       private System.Windows.Forms.TextBox TextBoxSeconds;
       private System.Windows.Forms.Label LabelCounter;
+      private System.Windows.Forms.Timer TimerOne;
    }
 }
