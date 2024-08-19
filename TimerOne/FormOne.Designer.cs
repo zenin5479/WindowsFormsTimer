@@ -1,6 +1,6 @@
 ﻿namespace TimerOne
 {
-   partial class Form1
+   partial class FormOne
    {
       /// <summary>
       ///  Required designer variable.
@@ -77,10 +77,14 @@
          LabelCounter.TabIndex = 12;
          LabelCounter.Text = "10";
          // 
-         // Form1
+         // TimerOne
+         // 
+         TimerOne.Tick += TimerOne_Tick;
+         // 
+         // FormOne
          // 
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-         ClientSize = new System.Drawing.Size(324, 93);
+         ClientSize = new System.Drawing.Size(315, 88);
          Controls.Add(LabelSeconds);
          Controls.Add(ButtonStart);
          Controls.Add(TextBoxSeconds);
@@ -88,9 +92,10 @@
          Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
          MaximizeBox = false;
          MinimizeBox = false;
-         Name = "Form1";
+         Name = "FormOne";
+         StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
          Text = "Таймер обратного отсчета";
-         Load += Form1_Load;
+         Load += FormOne_Load;
          ResumeLayout(false);
          PerformLayout();
       }
