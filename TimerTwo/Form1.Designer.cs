@@ -42,6 +42,7 @@
          ButtonStop.TabIndex = 19;
          ButtonStop.Text = "Стоп";
          ButtonStop.UseVisualStyleBackColor = true;
+         ButtonStop.Click += ButtonStop_Click;
          // 
          // ButtonStart
          // 
@@ -52,6 +53,7 @@
          ButtonStart.TabIndex = 18;
          ButtonStart.Text = "Старт";
          ButtonStart.UseVisualStyleBackColor = true;
+         ButtonStart.Click += ButtonStart_Click;
          // 
          // TextBoxSeconds
          // 

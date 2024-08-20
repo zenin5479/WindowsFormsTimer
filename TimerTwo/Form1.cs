@@ -16,5 +16,15 @@ namespace TimerTwo
       {
 
       }
+
+      private void ButtonStart_Click(object sender, EventArgs e)
+      {
+
+      }
+
+      private void ButtonStop_Click(object sender, EventArgs e)
+      {
+
+      }
    }
 }
