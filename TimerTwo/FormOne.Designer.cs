@@ -84,7 +84,7 @@
          Name = "FormOne";
          StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
          Text = "Таймер";
-         Load += Form1_Load;
+         Load += FormOne_Load;
          ResumeLayout(false);
          PerformLayout();
       }
