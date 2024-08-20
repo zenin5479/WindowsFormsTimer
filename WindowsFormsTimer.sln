@@ -5,7 +5,7 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_TimerOne", "TimerOne\01_TimerOne.csproj", "{F106641C-CA65-4EB8-93B2-4220C9F8D81A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimerTwo", "TimerTwo\TimerTwo.csproj", "{7EE79DB4-A31F-433C-B4B3-2D0EC8212E5A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_TimerTwo", "TimerTwo\02_TimerTwo.csproj", "{7EE79DB4-A31F-433C-B4B3-2D0EC8212E5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
