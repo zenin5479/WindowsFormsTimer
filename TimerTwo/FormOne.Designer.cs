@@ -74,7 +74,7 @@
          // FormOne
          // 
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-         ClientSize = new System.Drawing.Size(151, 97);
+         ClientSize = new System.Drawing.Size(151, 93);
          Controls.Add(ButtonStop);
          Controls.Add(ButtonStart);
          Controls.Add(TextBoxSeconds);
