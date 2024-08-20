@@ -31,5 +31,11 @@ namespace TimerTwo
       {
          TimerOne.Stop();
       }
+
+      private void TimerOne_Tick(object sender, EventArgs e)
+      {
+         // Обновляем TextBox
+         TextBoxSeconds.Text = (_value++).ToString();
+      }
    }
 }

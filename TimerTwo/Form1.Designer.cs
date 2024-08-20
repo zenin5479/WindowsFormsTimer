@@ -67,6 +67,10 @@
          TextBoxSeconds.Text = "0";
          TextBoxSeconds.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
          // 
+         // TimerOne
+         // 
+         TimerOne.Tick += TimerOne_Tick;
+         // 
          // Form1
          // 
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
