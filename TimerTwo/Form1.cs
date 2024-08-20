@@ -7,6 +7,8 @@ namespace TimerTwo
 {
    public partial class Form1 : Form
    {
+      private int _value;
+
       public Form1()
       {
          InitializeComponent();
@@ -19,7 +21,10 @@ namespace TimerTwo
 
       private void ButtonStart_Click(object sender, EventArgs e)
       {
-
+         if (int.TryParse(TextBoxSeconds.Text, out _value))
+         {
+            TimerOne.Start();
+         }
       }
 
       private void ButtonStop_Click(object sender, EventArgs e)

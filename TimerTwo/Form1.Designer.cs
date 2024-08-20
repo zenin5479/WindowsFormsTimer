@@ -28,9 +28,11 @@
       /// </summary>
       private void InitializeComponent()
       {
+         components = new System.ComponentModel.Container();
          ButtonStop = new System.Windows.Forms.Button();
          ButtonStart = new System.Windows.Forms.Button();
          TextBoxSeconds = new System.Windows.Forms.TextBox();
+         TimerOne = new System.Windows.Forms.Timer(components);
          SuspendLayout();
          // 
          // ButtonStop
@@ -85,5 +87,6 @@
       private System.Windows.Forms.Button ButtonStop;
       private System.Windows.Forms.Button ButtonStart;
       private System.Windows.Forms.TextBox TextBoxSeconds;
+      private System.Windows.Forms.Timer TimerOne;
    }
 }
