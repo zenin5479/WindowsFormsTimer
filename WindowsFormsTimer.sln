@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_TimerThree", "TimerThree
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_TimerFour", "TimerFour\04_TimerFour.csproj", "{7CE8AB34-4BC7-4F28-A484-747BEAB60F5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_TimerFive", "TimerFive\05_TimerFive.csproj", "{9E489099-AE14-4DD2-9375-798E28D4CCB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7CE8AB34-4BC7-4F28-A484-747BEAB60F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CE8AB34-4BC7-4F28-A484-747BEAB60F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CE8AB34-4BC7-4F28-A484-747BEAB60F5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E489099-AE14-4DD2-9375-798E28D4CCB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E489099-AE14-4DD2-9375-798E28D4CCB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E489099-AE14-4DD2-9375-798E28D4CCB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E489099-AE14-4DD2-9375-798E28D4CCB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
