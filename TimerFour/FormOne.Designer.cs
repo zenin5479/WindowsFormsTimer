@@ -50,6 +50,7 @@
          MaximizeBox = false;
          MinimizeBox = false;
          Name = "FormOne";
+         StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
          Text = "Таймер";
          Load += FormOne_Load;
          ResumeLayout(false);
