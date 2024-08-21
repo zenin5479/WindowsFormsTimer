@@ -48,6 +48,7 @@
          ButtonTimerStart.TabIndex = 6;
          ButtonTimerStart.Text = "Старт таймера";
          ButtonTimerStart.UseVisualStyleBackColor = true;
+         ButtonTimerStart.Click += ButtonTimerStart_Click;
          // 
          // FormOne
          // 
