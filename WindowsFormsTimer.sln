@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_TimerOne", "TimerOne\01_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_TimerTwo", "TimerTwo\02_TimerTwo.csproj", "{7EE79DB4-A31F-433C-B4B3-2D0EC8212E5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimerThree", "TimerThree\TimerThree.csproj", "{C9E9975F-C5E0-4BCE-BA72-51E49D9F2FCE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_TimerThree", "TimerThree\03_TimerThree.csproj", "{C9E9975F-C5E0-4BCE-BA72-51E49D9F2FCE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
