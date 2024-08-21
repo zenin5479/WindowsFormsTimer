@@ -28,19 +28,45 @@
       /// </summary>
       private void InitializeComponent()
       {
+         TextBoxOne = new System.Windows.Forms.TextBox();
+         ButtonTimerStart = new System.Windows.Forms.Button();
          SuspendLayout();
+         // 
+         // TextBoxOne
+         // 
+         TextBoxOne.Location = new System.Drawing.Point(12, 50);
+         TextBoxOne.Multiline = true;
+         TextBoxOne.Name = "TextBoxOne";
+         TextBoxOne.Size = new System.Drawing.Size(127, 121);
+         TextBoxOne.TabIndex = 7;
+         // 
+         // ButtonTimerStart
+         // 
+         ButtonTimerStart.Location = new System.Drawing.Point(12, 12);
+         ButtonTimerStart.Name = "ButtonTimerStart";
+         ButtonTimerStart.Size = new System.Drawing.Size(127, 32);
+         ButtonTimerStart.TabIndex = 6;
+         ButtonTimerStart.Text = "Старт таймера";
+         ButtonTimerStart.UseVisualStyleBackColor = true;
          // 
          // FormOne
          // 
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-         ClientSize = new System.Drawing.Size(525, 388);
+         ClientSize = new System.Drawing.Size(153, 182);
+         Controls.Add(TextBoxOne);
+         Controls.Add(ButtonTimerStart);
          Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
          Name = "FormOne";
-         StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+         StartPosition = System.Windows.Forms.FormStartPosition.Manual;
          Text = "Таймер";
+         Load += FormOne_Load;
          ResumeLayout(false);
+         PerformLayout();
       }
 
       #endregion
+
+      private System.Windows.Forms.TextBox TextBoxOne;
+      private System.Windows.Forms.Button ButtonTimerStart;
    }
 }

@@ -9,5 +9,9 @@ namespace TimerThree
          InitializeComponent();
       }
 
+      private void FormOne_Load(object sender, System.EventArgs e)
+      {
+
+      }
    }
 }
