@@ -7,11 +7,11 @@ using System.Windows.Forms;
 
 namespace TimerFive
 {
-   public partial class Form1 : Form
+   public partial class FormOne : Form
    {
       private readonly SynchronizationContext _synchronizationContext;
 
-      public Form1()
+      public FormOne()
       {
          InitializeComponent();
          _synchronizationContext = SynchronizationContext.Current;
@@ -29,7 +29,7 @@ namespace TimerFive
          }
       }
 
-      private void Form1_Load(object sender, EventArgs e)
+      private void FormOne_Load(object sender, EventArgs e)
       {
          // Синхронизировать таймер с Form1
          //timer.SynchronizingObject = this;
