@@ -1,2 +1,1 @@
-# WindowsFormsTimer
-Тиймер System.Windows.Forms.Timer
+# Таймер System.Windows.Forms.Timer
